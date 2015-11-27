@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1F551241C08D64800A69BEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F551231C08D64800A69BEF /* AppDelegate.swift */; };
+		A1F551261C08D64800A69BEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F551251C08D64800A69BEF /* ViewController.swift */; };
+		A1F551291C08D64800A69BEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F551271C08D64800A69BEF /* Main.storyboard */; };
+		A1F5512B1C08D64800A69BEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F5512A1C08D64800A69BEF /* Assets.xcassets */; };
+		A1F5512E1C08D64800A69BEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F5512C1C08D64800A69BEF /* LaunchScreen.storyboard */; };
+		A1F551391C08D64800A69BEF /* Campus_Genie_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F551381C08D64800A69BEF /* Campus_Genie_appTests.swift */; };
+		A1F551441C08D64800A69BEF /* Campus_Genie_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F551431C08D64800A69BEF /* Campus_Genie_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1F551351C08D64800A69BEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1F551181C08D64800A69BEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1F5511F1C08D64800A69BEF;
+			remoteInfo = "Campus Genie app";
+		};
+		A1F551401C08D64800A69BEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1F551181C08D64800A69BEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1F5511F1C08D64800A69BEF;
+			remoteInfo = "Campus Genie app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1F551201C08D64800A69BEF /* Campus Genie app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Campus Genie app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F551231C08D64800A69BEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1F551251C08D64800A69BEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1F551281C08D64800A69BEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1F5512A1C08D64800A69BEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1F5512D1C08D64800A69BEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1F5512F1C08D64800A69BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F551341C08D64800A69BEF /* Campus Genie appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Campus Genie appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F551381C08D64800A69BEF /* Campus_Genie_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Campus_Genie_appTests.swift; sourceTree = "<group>"; };
+		A1F5513A1C08D64800A69BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F5513F1C08D64800A69BEF /* Campus Genie appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Campus Genie appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F551431C08D64800A69BEF /* Campus_Genie_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Campus_Genie_appUITests.swift; sourceTree = "<group>"; };
+		A1F551451C08D64800A69BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1F5511D1C08D64800A69BEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F551311C08D64800A69BEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F5513C1C08D64800A69BEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1F551171C08D64800A69BEF = {
+			isa = PBXGroup;
+			children = (
+				A1F551221C08D64800A69BEF /* Campus Genie app */,
+				A1F551371C08D64800A69BEF /* Campus Genie appTests */,
+				A1F551421C08D64800A69BEF /* Campus Genie appUITests */,
+				A1F551211C08D64800A69BEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1F551211C08D64800A69BEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1F551201C08D64800A69BEF /* Campus Genie app.app */,
+				A1F551341C08D64800A69BEF /* Campus Genie appTests.xctest */,
+				A1F5513F1C08D64800A69BEF /* Campus Genie appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1F551221C08D64800A69BEF /* Campus Genie app */ = {
+			isa = PBXGroup;
+			children = (
+				A1F551231C08D64800A69BEF /* AppDelegate.swift */,
+				A1F551251C08D64800A69BEF /* ViewController.swift */,
+				A1F551271C08D64800A69BEF /* Main.storyboard */,
+				A1F5512A1C08D64800A69BEF /* Assets.xcassets */,
+				A1F5512C1C08D64800A69BEF /* LaunchScreen.storyboard */,
+				A1F5512F1C08D64800A69BEF /* Info.plist */,
+			);
+			path = "Campus Genie app";
+			sourceTree = "<group>";
+		};
+		A1F551371C08D64800A69BEF /* Campus Genie appTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1F551381C08D64800A69BEF /* Campus_Genie_appTests.swift */,
+				A1F5513A1C08D64800A69BEF /* Info.plist */,
+			);
+			path = "Campus Genie appTests";
+			sourceTree = "<group>";
+		};
+		A1F551421C08D64800A69BEF /* Campus Genie appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1F551431C08D64800A69BEF /* Campus_Genie_appUITests.swift */,
+				A1F551451C08D64800A69BEF /* Info.plist */,
+			);
+			path = "Campus Genie appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1F5511F1C08D64800A69BEF /* Campus Genie app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F551481C08D64800A69BEF /* Build configuration list for PBXNativeTarget "Campus Genie app" */;
+			buildPhases = (
+				A1F5511C1C08D64800A69BEF /* Sources */,
+				A1F5511D1C08D64800A69BEF /* Frameworks */,
+				A1F5511E1C08D64800A69BEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Campus Genie app";
+			productName = "Campus Genie app";
+			productReference = A1F551201C08D64800A69BEF /* Campus Genie app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1F551331C08D64800A69BEF /* Campus Genie appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F5514B1C08D64800A69BEF /* Build configuration list for PBXNativeTarget "Campus Genie appTests" */;
+			buildPhases = (
+				A1F551301C08D64800A69BEF /* Sources */,
+				A1F551311C08D64800A69BEF /* Frameworks */,
+				A1F551321C08D64800A69BEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1F551361C08D64800A69BEF /* PBXTargetDependency */,
+			);
+			name = "Campus Genie appTests";
+			productName = "Campus Genie appTests";
+			productReference = A1F551341C08D64800A69BEF /* Campus Genie appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1F5513E1C08D64800A69BEF /* Campus Genie appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F5514E1C08D64800A69BEF /* Build configuration list for PBXNativeTarget "Campus Genie appUITests" */;
+			buildPhases = (
+				A1F5513B1C08D64800A69BEF /* Sources */,
+				A1F5513C1C08D64800A69BEF /* Frameworks */,
+				A1F5513D1C08D64800A69BEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1F551411C08D64800A69BEF /* PBXTargetDependency */,
+			);
+			name = "Campus Genie appUITests";
+			productName = "Campus Genie appUITests";
+			productReference = A1F5513F1C08D64800A69BEF /* Campus Genie appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1F551181C08D64800A69BEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = umsi363w15;
+				TargetAttributes = {
+					A1F5511F1C08D64800A69BEF = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					A1F551331C08D64800A69BEF = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A1F5511F1C08D64800A69BEF;
+					};
+					A1F5513E1C08D64800A69BEF = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A1F5511F1C08D64800A69BEF;
+					};
+				};
+			};
+			buildConfigurationList = A1F5511B1C08D64800A69BEF /* Build configuration list for PBXProject "Campus Genie app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1F551171C08D64800A69BEF;
+			productRefGroup = A1F551211C08D64800A69BEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1F5511F1C08D64800A69BEF /* Campus Genie app */,
+				A1F551331C08D64800A69BEF /* Campus Genie appTests */,
+				A1F5513E1C08D64800A69BEF /* Campus Genie appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1F5511E1C08D64800A69BEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F5512E1C08D64800A69BEF /* LaunchScreen.storyboard in Resources */,
+				A1F5512B1C08D64800A69BEF /* Assets.xcassets in Resources */,
+				A1F551291C08D64800A69BEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F551321C08D64800A69BEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F5513D1C08D64800A69BEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1F5511C1C08D64800A69BEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F551261C08D64800A69BEF /* ViewController.swift in Sources */,
+				A1F551241C08D64800A69BEF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F551301C08D64800A69BEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F551391C08D64800A69BEF /* Campus_Genie_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F5513B1C08D64800A69BEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F551441C08D64800A69BEF /* Campus_Genie_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1F551361C08D64800A69BEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1F5511F1C08D64800A69BEF /* Campus Genie app */;
+			targetProxy = A1F551351C08D64800A69BEF /* PBXContainerItemProxy */;
+		};
+		A1F551411C08D64800A69BEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1F5511F1C08D64800A69BEF /* Campus Genie app */;
+			targetProxy = A1F551401C08D64800A69BEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1F551271C08D64800A69BEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1F551281C08D64800A69BEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1F5512C1C08D64800A69BEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1F5512D1C08D64800A69BEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1F551461C08D64800A69BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1F551471C08D64800A69BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1F551491C08D64800A69BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Campus Genie app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umsi363w15.Campus-Genie-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A1F5514A1C08D64800A69BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Campus Genie app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umsi363w15.Campus-Genie-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A1F5514C1C08D64800A69BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Campus Genie appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umsi363w15.Campus-Genie-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Campus Genie app.app/Campus Genie app";
+			};
+			name = Debug;
+		};
+		A1F5514D1C08D64800A69BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Campus Genie appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umsi363w15.Campus-Genie-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Campus Genie app.app/Campus Genie app";
+			};
+			name = Release;
+		};
+		A1F5514F1C08D64800A69BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Campus Genie appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umsi363w15.Campus-Genie-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Campus Genie app";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A1F551501C08D64800A69BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Campus Genie appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umsi363w15.Campus-Genie-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Campus Genie app";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1F5511B1C08D64800A69BEF /* Build configuration list for PBXProject "Campus Genie app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F551461C08D64800A69BEF /* Debug */,
+				A1F551471C08D64800A69BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F551481C08D64800A69BEF /* Build configuration list for PBXNativeTarget "Campus Genie app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F551491C08D64800A69BEF /* Debug */,
+				A1F5514A1C08D64800A69BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1F5514B1C08D64800A69BEF /* Build configuration list for PBXNativeTarget "Campus Genie appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F5514C1C08D64800A69BEF /* Debug */,
+				A1F5514D1C08D64800A69BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1F5514E1C08D64800A69BEF /* Build configuration list for PBXNativeTarget "Campus Genie appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F5514F1C08D64800A69BEF /* Debug */,
+				A1F551501C08D64800A69BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1F551181C08D64800A69BEF /* Project object */;
+}
